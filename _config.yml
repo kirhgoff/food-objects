@@ -1,0 +1,13 @@
+# Site settings
+title: Food Objects
+email: kirill.lastovirya@gmail.com  
+description: > # Однажды 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://kirhgoff.github.io/food-objects" # the base hostname & protocol for your site
+twitter_username: kirhgoff
+github_username:  kirhgoff
+
+# Build settings
+encoding: utf-8
+highlighter: rouge
+markdown: kramdown
