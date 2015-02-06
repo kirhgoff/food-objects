@@ -3,7 +3,7 @@ title: Food Objects
 email: kirill.lastovirya@gmail.com  
 description: > # 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # master branch is local one
+url: "http://kirhgoff.github.io/food-objects" # gh-pages is production
 twitter_username: kirhgoff
 github_username:  kirhgoff
 
