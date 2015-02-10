@@ -2,8 +2,8 @@
 title: Food Objects
 email: kirill.lastovirya@gmail.com  
 description: > # 
-        baseurl: "/food-objects/" # the subpath of your site, e.g. /blog/
-url: "http://kirhgoff.github.io/food-objects" # gh-pages is production
+baseurl: "/food-objects" # the subpath of your site, e.g. /blog/
+url: "http://kirhgoff.github.io" # gh-pages is production
 twitter_username: kirhgoff
 github_username:  kirhgoff
 
