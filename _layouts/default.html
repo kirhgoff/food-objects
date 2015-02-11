@@ -4,12 +4,22 @@
   {% include head.html %}
 
   <body>
+    
+    <div class="container">
+      {% include header.html %}
+    </div>
 
-    {% include header.html %}
+    <div class="left">
+      {% include sidebar.html %}      
+    </div>
 
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
 
-    {% include footer.html %}
+    <div class="container">
+      {% include footer.html %}
+    </div>
 
   </body>
 
