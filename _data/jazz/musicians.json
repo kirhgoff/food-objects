@@ -1,12 +1,23 @@
 [
 {
-	"name":"Sidney Bechet",
-	"images":["http://upload.wikimedia.org/wikipedia/commons/c/c9/Bechet.gif"],
-	"wiki":"http://en.wikipedia.org/wiki/Sidney_Bechet",
-	"born":{"date":"1897-05-14", "place":"New Orleans, Louisiana, United States"},
-	"died":{"date":"1959-05-14", "place":"Garches, France"},
-	"active":["1908", "1957"],
-	"genres":["Jazz", "Dixieland"],
-	"occupation": ["Clarinetist", "Saxophonist", "Composer"]
-}
+  "name":"Sidney Bechet",
+  "images":["http://upload.wikimedia.org/wikipedia/commons/c/c9/Bechet.gif"],
+  "wiki":"http://en.wikipedia.org/wiki/Sidney_Bechet",
+  "born":{"date":"1897-05-14", "place":"New Orleans, Louisiana, United States"},
+  "died":{"date":"1959-05-14", "place":"Garches, France"},
+  "active":["1908", "1957"],
+  "genres":["Jazz", "Dixieland"],
+  "occupation": ["Clarinetist", "Saxophonist", "Composer"]
+},
+{
+  "name":"Django Reinhardt",
+  "images":["http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Django_Reinhardt_%28Gottlieb_07301%29.jpg/220px-Django_Reinhardt_%28Gottlieb_07301%29.jpg"],
+  "wiki":"http://en.wikipedia.org/wiki/Django_Reinhardt",
+  "born":{"date":"1910-01-23", "place":"Liberchies, Pont-à-Celles, Belgium"},
+  "died":{"date":"1953-05-16", "place":"Fontainebleau, France"},
+  "active":["1928", "1953"],
+  "genres":["Jazz", "Gypsy jazz", "bebop", "Romani music"],
+  "occupation": ["Guitarist", "Composer"]
+},
+
 ]
