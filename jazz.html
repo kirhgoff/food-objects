@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h2>Джаховые музыканты</h2>
+
+<ul>
+{% for person in site.data.jazz.musicians %}
+  <li>
+  {% include musician.html param=person %}
+  </li>
+{% endfor %}
+</ul>
