@@ -1,0 +1,12 @@
+[
+{
+	"name":"Sidney Bechet",
+	"images":["http://upload.wikimedia.org/wikipedia/commons/c/c9/Bechet.gif"],
+	"wiki":"http://en.wikipedia.org/wiki/Sidney_Bechet",
+	"born":{"date":"1897-05-14", "place":"New Orleans, Louisiana, United States"},
+	"died":{"date":"1959-05-14", "place":"Garches, France"},
+	"active":["1908", "1957"],
+	"genres":["Jazz", "Dixieland"],
+	"occupation": ["Clarinetist", "Saxophonist", "Composer"]
+}
+]
