@@ -18,6 +18,16 @@
   "active":["1928", "1953"],
   "genres":["Jazz", "Gypsy jazz", "bebop", "Romani music"],
   "occupation": ["Guitarist", "Composer"]
+},
+{
+  "name":"Louis Armstrong",
+  "images":["http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/250px-Louis_Armstrong_restored.jpg"],
+  "wiki":"http://en.wikipedia.org/wiki/Louis_Armstrong",
+  "born":{"date":"1901-08-04", "place":"New Orleans, Louisiana, U.S."},
+  "died":{"date":"1971-07-06", "place":"Corona, Queens, New York City, U.S."},
+  "active":["1914", "1971"],
+  "genres":["Dixieland", "Swing", "Traditional", "Scat"],
+  "occupation": ["Musician", "Trumpet", "cornet", "vocals"]
 }
 
 ]

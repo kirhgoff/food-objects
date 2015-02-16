@@ -1,4 +1,13 @@
-    <img src="{{ include.param.images[0] }}" height="80px" />
-    <a href="{{ include.param.wiki }}">
-      {{ include.param.name }}
-    </a>
+    <div class="jazz">
+      <div class="card">
+        <img src="{{ include.param.images[0] }}" height="80px" />
+        <div class="bio">
+            {{ include.param.born.date }} - {{ include.param.died.date }}
+        </div>
+        <div class="name">
+          <a href="{{ include.param.wiki }}">
+            {{ include.param.name }}
+          </a>
+        </div>
+      </div>  
+    </div>
