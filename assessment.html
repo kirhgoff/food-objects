@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h2>Assessment docs</h2>
+
+<h3>References</h3>
+<ul>
+{% for reference in site.data.assessment.references %}
+  <li>
+  {% include reference.html param=reference %}
+  </li>
+{% endfor %}
+</ul>
+
+<h3>Last projects</h3>
+<ul>
+{% for project in site.data.assessment.projects %}
+  <li>
+  {% include project.html param=project %}
+  </li>
+{% endfor %}
+</ul>
+
+<h3>Other documents</h3>
+<ul>
+  <li><a href="{{ 'assets/Skilled-Employment-Reference-Example.pdf' | prepend: site.baseurl }}">Reference example</a></li>
+  <li><a href="{{ 'assets/ACS-Project-Report-Form-2014.docx' | prepend: site.baseurl }}">Project report form</a></li>
+  <li><a href="{{ 'assets/Key-Areas-of-Knowledge.pdf' | prepend: site.baseurl }}">Key areas of knowledge</a></li>
+  <!--li>![Reference example]({{ site.url }}/assets/Skilled-Employment-Reference-Example.pdf)</li-->
+</ul>

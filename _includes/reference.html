@@ -1,0 +1,16 @@
+<div>
+<p>To whom it may concern</p>
+
+<p>This is to certify that Mr Kirill Lastoviria is an employee of {{ include.param.companyName }} and is employed from
+ {{ include.param.startDate }} until {{ include.param.endDate }}</p>
+
+<p>Mr Kirill Lastoviria is employed on a Full Time basis as a {{ include.param.position }}.</p>
+
+<ul>Duties and responsibilities:
+{% for responsibility in include.param.responsibilities %}
+  <li> {{ resposibility }} </li>
+{% endfor %}
+</ul>
+
+<p>Sincerely yours,</p>
+</div>
