@@ -1,14 +1,15 @@
-<div>
+<div class="reference">
+<h3>{{ include.param.companyName }}</h3>
 <p>To whom it may concern</p>
 
-<p>This is to certify that Mr Kirill Lastoviria is an employee of {{ include.param.companyName }} and is employed from
- {{ include.param.startDate }} until {{ include.param.endDate }}</p>
+<p>This is to certify that Mr Kirill Lastoviria is an employee of {{ include.param.companyName }} and is employed from {{ include.param.startDate }} until {{ include.param.endDate }}</p>
 
 <p>Mr Kirill Lastoviria is employed on a Full Time basis as a {{ include.param.position }}.</p>
 
-<ul>Duties and responsibilities:
+<p>Duties and responsibilities:</p>
+<ul>
 {% for responsibility in include.param.responsibilities %}
-  <li> {{ resposibility }} </li>
+  <li> {{ responsibility.name }} </li>
 {% endfor %}
 </ul>
 
