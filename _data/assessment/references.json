@@ -1,7 +1,7 @@
 [
 {
-  "companyName":"Moscow Exchange TODO",
-  "startDate" : "TODO",
+  "companyName":"Moscow Exchange Ltd",
+  "startDate" : "Aug 11, 2014",
   "endDate": "present time",
   "position": "Senior Developer",
   "responsibilities" : [
@@ -18,29 +18,64 @@
     {"name": "close work with infrastructure team in integration with other exchange systems during feature implementation"}
   ]
 },
-
 {
-  "companyName":"General Rhetoric TODO",
-  "startDate" : "TODO",
-  "endDate": "TODO",
+  "companyName":"General Rhetoric",
+  "startDate" : "Jun 17, 2013",
+  "endDate": "Nov 20, 2013",
   "position": "Senior Developer",
   "responsibilities" : [
-    {"name":"writing both server side (Java, CQEngine, Gigaspaces, maven) and frontend application code (HTML, CSS, Javascript, Angular, lodash, jquery, requirejs, grunt)"}
+    {"name":"developing backend engine (Scala, Akka, Lift) and frontend (HTML, CSS, Javascript, Angular, Comet) for system allowing human-like text interaction with user, semantic analysis of text, ontology database (MongoDB) for recommendations on Moscow cuisine. System now recognised by Y-Combinator, \"Luka\" startup"},
+    {"name":"actively participate in scrums, demos and retrospectons to improve working process"},
+    {"name":"working with designers and editors to support with reach editing frontend and improve their working process to fill the ontology database"},
+    {"name":"participating in both architectural and algorythmic decisions"},
+    {"name":"supporting and testing oncoming releases"}
   ]
 },
-
 {
-  "companyName":"Deutsche Bank Ltd",
-  "startDate" : "January 1, 2014",
-  "endDate": "present time",
+  "companyName":"Education of a Robot, re-registered as General Rhetoric",
+  "startDate" : "Apr 22, 2013",
+  "endDate": "Jun 14, 2013",
   "position": "Senior Developer",
   "responsibilities" : [
-    {"name":"researching, consulting, analysing and evaluating system program needs"},
-    {"name":"identifying technology limitations and deficiencies in existing systems and associated processes, procedures and methods"},
-    {"name":"testing, debugging, diagnosing and correcting errors and faults in an applications programming language within established testing protocols, guidelines and quality standards to ensure programs and applications perform to specification"},
-    {"name": "writing and maintaining program code to meet system requirements, system designs and technical specifications in accordance with quality accredited standards"},
-    {"name":"writing, updating and maintaining technical program, end user documentation and operational procedures"}
+    {"name":"developing backend server (Python, Flask, Tornado, Vagrant) for social networking application for American market (project is now stalled, \"Closer\"), implementing new functionality, fixing ideosincrasies of an old code"},
+    {"name":"supporting production server, installing new releases, mantaining interface documentation"},
+    {"name":"mantaining web-server for company \"Yota\", implementing new features, fixing problems (PHP, Bitrix)"},
+    {"name":"communicate with customer, specify required functionality in task tracking system"}
+  ],
+  "note":"Transfered to new position after company has changed its title to General Rhetoric."
+},
+{
+  "companyName":"Renaissanse Broker Ltd.",
+  "startDate" : "June 14, 2011",
+  "endDate": "December 20, 2012",
+  "position": "Project Manager",
+  "responsibilities" : [
+    {"name":"working with team of analysts and developers to integrate \"Imagine\" system into bank infrastructure to provide new tools for risk-management team"},
+    {"name":"communication with vendor(Imagine), internal customers and connected systems teams (Murex, Algorythmics, Calipso), preparing feature specification, helping with data validation"},
+    {"name":"manage and participate in development and maintanance of \"Connectivity\" platform, containing ~ 30 services of data transfer and conversion between internal bank systems"}
+    {"name": "development both releases and support tools (Java, Tibco, Beanshell, Python, Bash)"},
+    {"name":"provide SL3 support, mantain supporting documentation, creating release notes"},
+    {"name":"provide technical interview of newcomers (~50 persons, about 10 hired)"},
+    {"name":"working and managing vendor team of outsourced developers (EPAM), release coordination, participation in development, code review"},
+    {"name":"understanding  other projects requirements, providing technical solutions"}
   ]
+},
+{
+  "companyName":"Deutsche Bank Ltd",
+  "positions": [
+  {
+    "startDate" : "April 6, 2004",
+    "endDate": "Jan 1, 2008",
+    "position": "Senior Developer",
+    "responsibilities" : [
+      {"name":"understanding and refactoring of obsolete system, unit tests creation. Stability increased ~ 10 times in number of outages"},
+    ]  
+    },
+    {
+
+    }
+  ]
+  
 }
 ]
 
