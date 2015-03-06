@@ -8,7 +8,7 @@
     {"name" : "development of new exchange platform that aggregates data from different markets and provides real-time data to internal and external clients"},
     {"name":"writing both server side (Java, CQEngine, Gigaspaces, maven) and frontend application code (HTML, CSS, Javascript, Angular, lodash, jquery, requirejs, grunt)"}, 
     {"name":"testing application code, active usage of test-driven development approach on both server side and frontend (testng, junit, karma, angular mocks)"},
-    {"name":"implementation and mantainance of custom data driven test engine which allowed quality assurance team to include big part of manual test scenarios into automated continuous integration process"},
+    {"name":"implementation and mantainance of custom data driven test engine which allowed quality assurance team to incclude big part of manual test scenarios into automated continuous integration process"},
     {"name": "participation in analysis of data grid engines (Gigaspaces, CQEngine) and their suitability for needs of project, development of stress tests"},
     {"name": "development and mantainance of project-specific grammars (ANTLR 4) for custom SQL-like language and formula expressions with complicated algorythms over tree-like structures (visitor pattern, evaluation code generation)"},
     {"name":"development of custom domain specific language (XSD, XML, JSON) for aggregating financial data from multiple sources"},
