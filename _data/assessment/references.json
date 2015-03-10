@@ -53,9 +53,9 @@
     {"name":"working with team of analysts and developers to integrate \"Imagine\" system into bank infrastructure to provide new tools for risk-management team"},
     {"name":"communication with vendor(Imagine), internal customers and connected systems teams (Murex, Algorythmics, Calipso), preparing feature specification, helping with data validation"},
     {"name":"manage and participate in development and maintanance of \"Connectivity\" platform, containing ~ 30 services of data transfer and conversion between internal bank systems"}
-    {"name": "development both releases and support tools (Java, Tibco, Beanshell, Python, Bash)"},
+    {"name": "development of both releases and support tools (Java, Tibco, Beanshell, Python, Bash)"},
     {"name":"provide SL3 support, mantain supporting documentation, creating release notes"},
-    {"name":"provide technical interview of newcomers (~50 persons, about 10 hired)"},
+    {"name":"provide technical interview of newcomers (~30 persons, about 10 hired)"},
     {"name":"working and managing vendor team of outsourced developers (EPAM), release coordination, participation in development, code review"},
     {"name":"understanding  other projects requirements, providing technical solutions"}
   ]
@@ -68,7 +68,13 @@
     "endDate": "Jan 1, 2008",
     "position": "Senior Developer",
     "responsibilities" : [
-      {"name":"understanding and refactoring of obsolete system, unit tests creation. Stability increased ~ 10 times in number of outages"},
+      {"name":"understanding and refactoring of obsolete system (XOL), unit tests creation. Stability increased ~ 10 times in number of outages"},
+      {"name":"rebuilding system infrastructure to parallelize pricing of supported trading instruments. Number of products increased from ~50K to ~200K with possibility to add more"}
+      {"name":"performance and memory optimization, GC tuning, memory leaks resolution"},
+      {"name":"work closely with abroad support team, providing tools and mantaining documentation on support procedures"},
+      {"name":"installing releases on-site, hotfixes development "},
+      {"name":"visiting other offices (Hong Kong, Sydney, London, Frankfurt) to understand customers needs and providing technical solutions, writing features specifications"}
+
     ]  
     },
     {
