@@ -5,17 +5,17 @@
   "endDate": "present time",
   "position": "Senior Developer",
   "responsibilities" : [
-    {"name" : "development of new exchange platform that aggregates data from different markets and provides real-time data to internal and external clients"},
-    {"name":"writing both server side (Java, CQEngine, Gigaspaces, maven) and frontend application code (HTML, CSS, Javascript, Angular, lodash, jquery, requirejs, grunt)"}, 
-    {"name":"testing application code, active usage of test-driven development approach on both server side and frontend (testng, junit, karma, angular mocks)"},
-    {"name":"implementation and maintenance of custom data driven test engine allowing quality assurance team to include big part of manual test scenarios into automated continuous integration process"},
-    {"name": "participation in analysis of data grid engines (Gigaspaces, CQEngine) and their suitability for needs of project, development of stress tests"},
-    {"name": "development and mantainance of project-specific grammars (ANTLR 4) for custom SQL-like language and formula expressions with complicated algorythms over tree-like structures (visitor pattern, evaluation code generation)"},
-    {"name":"development of custom domain specific language (XSD, XML, JSON) for aggregation of financial data from multiple sources"},
-    {"name": "analysis of customer requests, close work with analysts to create specifications, development of application with modifications to current platform and domain language"},
-    {"name": "participation in amendments to working process in agile methology (scrum, JIRA)"},
-    {"name": "setting up support and releases process, close work with support team"},
-    {"name": "close work with infrastructure team in integration with other exchange systems during feature implementation"}
+    "development of new exchange platform that aggregates data from different markets and provides real-time data to internal and external clients",
+    "writing both server side (Java, CQEngine, Gigaspaces, maven) and frontend application code (HTML, CSS, Javascript, Angular, lodash, jquery, requirejs, grunt)", 
+    "testing application code, active usage of test-driven development approach on both server side and frontend (testng, junit, karma, angular mocks)",
+    "implementation and maintenance of custom data driven test engine allowing quality assurance team to include big part of manual test scenarios into automated continuous integration process",
+    "participation in analysis of data grid engines (Gigaspaces, CQEngine) and their suitability for needs of project, development of stress tests",
+    "development and mantainance of project-specific grammars (ANTLR 4) for custom SQL-like language and formula expressions with complicated algorythms over tree-like structures (visitor pattern, evaluation code generation)",
+    "development of custom domain specific language (XSD, XML, JSON) for aggregation of financial data from multiple sources",
+    "analysis of customer requests, close work with analysts to create specifications, development of application with modifications to current platform and domain language",
+    "participation in amendments to working process in agile methology (scrum, JIRA)",
+    "setting up support and releases process, close work with support team",
+    "close work with infrastructure team in integration with other exchange systems during feature implementation"
   ]
 },
 {
@@ -24,11 +24,11 @@
   "endDate": "Nov 20, 2013",
   "position": "Senior Developer",
   "responsibilities" : [
-    {"name":"development of backend engine (Scala, Akka, Lift) and frontend (HTML, CSS, Javascript, Angular, Comet) for system allowing humanlike text interaction with user, semantic analysis of text, ontology database (MongoDB) for recommendations on TODO Moscow cuisine TODO. System is now recognised by Y-Combinator, \"Luka\" startup"},
-    {"name":"active participation in scrums, demos and retrospectons directer to improvement of working process"},
-    {"name":"work with designers and editors aimed at supplying them with reach editing frontend and improvement their working process TODO to fill TODO the ontology database"},
-    {"name":"participation in both architectural and algorythmic decisions"},
-    {"name":"support and testing of oncoming releases"}
+    "development of backend engine (Scala, Akka, Lift) and frontend (HTML, CSS, Javascript, Angular, Comet) for system allowing humanlike text interaction with user, semantic analysis of text, ontology database (MongoDB) for recommendations on TODO Moscow cuisine TODO. System is now recognised by Y-Combinator, \"Luka\" startup",
+    "active participation in scrums, demos and retrospectons directer to improvement of working process",
+    "work with designers and editors aimed at supplying them with reach editing frontend and improvement their working process TODO to fill TODO the ontology database",
+    "participation in both architectural and algorythmic decisions",
+    "support and testing of oncoming releases"
   ]
 },
 {
@@ -37,10 +37,10 @@
   "endDate": "Jun 14, 2013",
   "position": "Senior Developer",
   "responsibilities" : [
-    {"name":"development of backend server (Python, Flask, Tornado, Vagrant) for social networking application for American market (project is now stalled, \"Closer\"), implementation of new functionality, fixing TODO ideosincrasies TODO of an old code"},
-    {"name":"support of production server, installation of new releases, maintainance of interface documentation"},
-    {"name":"mantainance of web-server for company \"Yota\", implementation of new features, fixing TODO problems (PHP, Bitrix)"},
-    {"name":"communication with customer, specification of required functionality in task tracking system"}
+    "development of backend server (Python, Flask, Tornado, Vagrant) for social networking application for American market (project is now stalled, \"Closer\"), implementation of new functionality, fixing TODO ideosincrasies TODO of an old code",
+    "support of production server, installation of new releases, maintainance of interface documentation",
+    "mantainance of web-server for company \"Yota\", implementation of new features, fixing TODO problems (PHP, Bitrix)",
+    "communication with customer, specification of required functionality in task tracking system"
   ],
   "note":"Transfered to new position after company has changed its title to General Rhetoric."
 },
@@ -50,14 +50,14 @@
   "endDate": "December 20, 2012",
   "position": "Project Manager",
   "responsibilities" : [
-    {"name":"work with team of analysts and developers to integrate \"Imagine\" system into bank infrastructure to provide new tools for risk-management team"},
-    {"name":"communication with vendor(Imagine), internal customers and connected systems teams (Murex, Algorythmics, Calipso), preparation of feature specification, help with data validation"},
-    {"name":"management and participation in development and maintainance of \"Connectivity\" platform, containing ~ 30 services of data transfer and conversion between internal bank systems"}
-    {"name": "development of both TODO releases [RELEASE TOOLS?] and support tools (Java, Tibco, Beanshell, Python, Bash)"},
-    {"name":"provision of SL3 support, maintainance of supporting documentation, creation of release notes"},
-    {"name":"provision of technical interview to newcomers (~50 persons, about 10 hired)"},
-    {"name":"management and work with vendor team of outsourced developers (EPAM), release coordination, participation in development, code review"},
-    {"name":"understanding of other projects requirements, provision of technical solutions"}
+    "work with team of analysts and developers to integrate \"Imagine\" system into bank infrastructure to provide new tools for risk-management team",
+    "communication with vendor(Imagine), internal customers and connected systems teams (Murex, Algorythmics, Calipso), preparation of feature specification, help with data validation",
+    "management and participation in development and maintainance of \"Connectivity\" platform, containing ~ 30 services of data transfer and conversion between internal bank systems",
+    "development of both TODO releases [RELEASE TOOLS?] and support tools (Java, Tibco, Beanshell, Python, Bash)",
+    "provision of SL3 support, maintainance of supporting documentation, creation of release notes",
+    "provision of technical interview to newcomers (~50 persons, about 10 hired)",
+    "management and work with vendor team of outsourced developers (EPAM), release coordination, participation in development, code review",
+    "understanding of other projects requirements, provision of technical solutions"
   ]
 },
 {
@@ -68,33 +68,32 @@
     "endDate": "Jan 1, 2008",
     "position": "Senior Developer",
     "responsibilities" : [
-      {"name":"understanding and refactoring of obsolete system (XOL, OTC platform for derivatives trading), unit tests creation. Stability increased ~ 10 times in number of outages"},
-      {"name":"rebuilding system infrastructure to parallelize pricing of supported trading instruments. Number of products increased from ~50K to ~200K with possibility to add more"}
-      {"name":"performance and memory optimization, GC tuning, memory leaks resolution"},
-      {"name":"SL3, close work with abroad support team (SL2), providing tools and mantaining documentation on support procedures"},
-      {"name":"installing releases on-site (Frankfurt), hotfixes development and deployment"},
-      {"name":"visiting other offices (Hong Kong, Sydney, London, Frankfurt) to understand customers needs and providing technical solutions, writing features specifications"}
+      "understanding and refactoring of obsolete system (XOL, OTC platform for derivatives trading), unit tests creation. Stability increased ~ 10 times in number of outages",
+      "rebuilding system infrastructure to parallelize pricing of supported trading instruments. Number of products increased from ~50K to ~200K with possibility to add more",
+      "performance and memory optimization, GC tuning, memory leaks resolution",
+      "SL3, close work with abroad support team (SL2), providing tools and mantaining documentation on support procedures",
+      "installing releases on-site (Frankfurt), hotfixes development and deployment",
+      "visiting other offices (Hong Kong, Sydney, London, Frankfurt) to understand customers needs and providing technical solutions, writing features specifications"
     ]  
   },
-
   {
     "startDate":"January 1, 2008",
     "endDate":"June 10, 2011",
     "position":"Manager",
     "responsibilities" : [
-      {"name":"leading team of developers for set of applications (~ 10 apps) called \"Elemental Services\" providing data for risk calculation and trades processing, most of them build around \"Imagine\" risk platform"},
-      {"name":"refactoring of obsolete applications, rebuilding infrastructure to meet new loads and performance requirements (Java, SOAP, Spring, Hibernate, Coherence, haproxy, jetty, HTML, CSS, Javascript, Groovy)"},
-      {"name":"building sets of test suites prior to refactoring existant systems (Selenium, JUnit, JMeter"},
-      {"name":"setting development process as scrum, changing releasing process"},
-      {"name":"production deployment, releasing tools implementation (Bash)"},
-      {"name":"SL3, working with vendor support team (RiskCare) to establish common packaging and deployment process"},
-      {"name":"performance optimization, memory leaks resolution, GC tuning"},
-      {"name":"monitoring tools development, integrating with common monitoring platform (JMX, Geneos)"},
-      {"name":"hiring new developers, creating new development team, from the scratch"},
-      {"name":"provide stable releasing process (as a result, 3 releases per month in a team of 5 people"}
+      "leading team of developers for set of applications (~ 10 apps) called \"Elemental Services\" providing data for risk calculation and trades processing, most of them build around \"Imagine\" risk platform",
+      "refactoring of obsolete applications, rebuilding infrastructure to meet new loads and performance requirements (Java, SOAP, Spring, Hibernate, Coherence, haproxy, jetty, HTML, CSS, Javascript, Groovy)",
+      "building sets of test suites prior to refactoring existant systems (Selenium, JUnit, JMeter",
+      "setting development process as scrum, changing releasing process",
+      "production deployment, releasing tools implementation (Bash)",
+      "SL3, working with vendor support team (RiskCare) to establish common packaging and deployment process",
+      "performance optimization, memory leaks resolution, GC tuning",
+      "monitoring tools development, integrating with common monitoring platform (JMX, Geneos)",
+      "hiring new developers, creating new development team from the scratch",
+      "provide stable releasing process (as a result, 3 releases per month in a team of 5 people"
     ]
   }
-  ]
+]
 },
 {
   "companyName":"Physicon Ltd.",
