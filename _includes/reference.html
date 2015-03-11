@@ -2,16 +2,36 @@
 <h3>{{ include.param.companyName }}</h3>
 <p>To whom it may concern</p>
 
-<p>This is to certify that Mr Kirill Lastoviria is an employee of {{ include.param.companyName }} and is employed from {{ include.param.startDate }} until {{ include.param.endDate }}</p>
+{% if include.param.positions %}
+<p>This is to certify that Mr Kirill Lastoviria was an employee of {{ include.param.companyName }} and had the following positions:</p>
 
-<p>Mr Kirill Lastoviria is employed on a Full Time basis as a {{ include.param.position }}.</p>
+{% for position in include.param.positions %}
+<p>From {{ position.startDate }} until {{ position.endDate }} on a Full Time basis as a {{ position.position }}, his duties and responsibilities were:</p>
+<ul>
+{% for responsibility in position.responsibilities %}
+  <li> {{ responsibility }} </li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% else %}
+
+<p>This is to certify that Mr Kirill Lastoviria was an employee of {{ include.param.companyName }} and was employed from {{ include.param.startDate }} until {{ include.param.endDate }}</p>
+
+<p>Mr Kirill Lastoviria was employed on a Full Time basis as a {{ include.param.position }}.</p>
 
 <p>Duties and responsibilities:</p>
 <ul>
 {% for responsibility in include.param.responsibilities %}
-  <li> {{ responsibility.name }} </li>
+  <li> {{ responsibility }} </li>
 {% endfor %}
 </ul>
+
+{% endif %}
+
+{% if include.param.note %}
+<p>{{ include.param.note }}</p>
+{% endif %}
 
 <p>Sincerely yours,</p>
 </div>
