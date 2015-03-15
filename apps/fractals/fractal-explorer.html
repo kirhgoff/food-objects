@@ -1,0 +1,48 @@
+<title>[fractal\\explorer]</title>
+<head>
+<script>
+	function doAlert(s) {
+		document.body.setBackgroundColor(s);
+	}
+</script>
+<style type="text/css">
+div {
+	font-size: smaller;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+
+h3 {
+	background-color: #EEEEEE;
+	font-variant: small-caps;
+}
+</style>
+</head>
+<center>
+<h3>[fractal explorer]</h3>
+<table>
+	<tr>
+		<td width="30%" valign="top"><br />
+		<div>Simple Formalae can born weirdest Figures. Try exploring
+		the Border of the Mandelbrot Fractal. Numbers near Cursor are Coords
+		in complex Space. dont forget to scroll Colors - they could unhide
+		stored Meanings inside</div>
+		<br/>
+		<div># zoom selecting interesting areas with mouse</div>
+		<br />
+		<div># wheel up or down (it doesnt matters) to return backwards</div>
+		<br />
+		<div># press keys &apos;Q&apos; and &apos;W&apos; to scroll
+		color saturation</div>
+		<br />
+		</td>
+		<td><embed type="application/x-java-applet;version=1.6" 
+			code="org.kirhgoff.fractals.FractalApplet"
+			data="org.kirhgoff.fractal-explorer.jar" 
+			archive="org.kirhgoff.fractal-explorer.jar" 
+			width=600 height=600
+			id="fractal-explorer"> </embed></td>
+		<td>
+	</tr>
+</center>
