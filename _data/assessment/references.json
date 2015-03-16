@@ -68,12 +68,12 @@
     "endDate": "Jan 1, 2008",
     "position": "Senior Developer",
     "responsibilities" : [
-      "understanding and refactoring of obsolete system (XOL, OTC platform for derivatives trading), unit tests creation. Stability increased ~ 10 times in number of outages",
-      "rebuilding system infrastructure to parallelize pricing of supported trading instruments. Number of products increased from ~50K to ~200K with possibility to add more",
+      "understanding and refactoring of obsolete codebase of a system (XOL, OTC platform for derivatives trading), unit tests creation",
+      "rebuilding system infrastructure to parallelize pricing of supported trading instruments and increase performance",
       "performance and memory optimization, GC tuning, memory leaks resolution",
       "SL3, close work with abroad support team (SL2), providing tools and mantaining documentation on support procedures",
-      "installing releases on-site (Frankfurt), hotfixes development and deployment",
-      "visiting other offices (Hong Kong, Sydney, London, Frankfurt) to understand customers needs and providing technical solutions, writing features specifications"
+      "installation of releases on-site (Frankfurt), hotfixes development and deployment",
+      "visits other offices (Hong Kong, Sydney, London, Frankfurt) to understand customers needs and providing technical solutions, writing features specifications"
     ]  
   },
   {
@@ -86,11 +86,11 @@
       "building sets of test suites prior to refactoring existant systems (Selenium, JUnit, JMeter",
       "setting development process as scrum, changing releasing process",
       "production deployment, releasing tools implementation (Bash)",
-      "SL3, working with vendor support team (RiskCare) to establish common packaging and deployment process",
+      "SL3, work with vendor support team (RiskCare) to establish common packaging and deployment process",
       "performance optimization, memory leaks resolution, GC tuning",
       "monitoring tools development, integrating with common monitoring platform (JMX, Geneos)",
-      "hiring new developers, creating new development team from the scratch",
-      "provide stable releasing process (as a result, 3 releases per month in a team of 5 people"
+      "development team creation, hiring",
+      "provide stable releasing process with short release cycle for several systems"
     ]
   }
 ]
@@ -101,10 +101,10 @@
   "endDate": "March 31, 2004",
   "position": "Developer",
   "responsibilities" : [
-    "developing visual simulations of physical experiments for \"Physics In Pictures\" educational product (C, C++, OWL)",
-    "developing applets and backend server of authoring and educational system (iLearn) for abroad publishers (Thomson Learning, Pearson Education, McGraw-Hill), system was used widely in US universities",
-    "supporting team of about 250 editors with tools and bug fixing for authoring incoming queries of abroad customer, participating in feature specification meetings",
-    "setting up development process and helping in integrating new tracking system, work process automation"
+    "development of visual simulations of physical experiments for \"Physics In Pictures\" educational product (C, C++, OWL)",
+    "development of applets and backend server features of authoring and educational system (iLearn) for international publishers (Thomson Learning, Pearson Education, McGraw-Hill), used to build electronic courses in universities",
+    "supporting team of about 250 editors with tools and bug fixing for implementing customers requests, participating in feature specification meetings",
+    "participation in optimization of development process and integration of new tracking system, automation of working process"
   ]
 }
 ]
