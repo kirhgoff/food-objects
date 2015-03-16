@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>Ideas</h2>
+
+<p>Here is the list of ideas I want to save for future implementation and sharing with anyone</p>
+<ul>
+{% for idea in site.data.ideas.ideas %}
+  <li>
+  {% include idea.html param=idea %}
+  </li>
+{% endfor %}
+</ul>

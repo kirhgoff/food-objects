@@ -8,6 +8,10 @@
   "title":"Track everything",
   "category":"application",
   "idea":"If you want to keep track of something, just define variable and its type, add a widget to your screen and use it to track whatever you want - cigarettes you smoke, just a counter, calories you eat - number selection, times you masturbate..."
+},
+{
+  "title":"Robo-therapist",
+  "category":"application",
+  "idea":"Dialog-based application where user can express his problems and application start asking therapeutic questions (based on gestalt approach) helping user to understand his issues. To fix the problem of missing emotions application can ask users about their feelings on stories of other users and communicate them back."
 }
-
 ]
