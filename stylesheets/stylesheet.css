@@ -10,7 +10,7 @@ body {
 }
 
 .left {
-  width: 300px;
+  width: 25%;
   height: 100%;
   float:left;
   text-align: right;
@@ -18,11 +18,11 @@ body {
 }
 
 .right {
-  width: 70%;
+  width: 65%;
   height: 100%;
   float:left;
   //border: 1px solid red;
-  margin-left:50px;
+  margin-left:1%;
   border-left: 1px dashed #b5e853;
   padding: 20px;
 }
