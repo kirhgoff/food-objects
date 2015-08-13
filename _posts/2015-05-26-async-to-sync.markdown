@@ -7,7 +7,7 @@ categories: dev java
 
 I feel so silly posting this question, sure there is an obvious answer, but spent pair of hours trying to guess how to did this with no luck. Probably community will help.
 
-My question: is there any standard mechnism in Java for converting async code to sync one. For example (from, surprisingly, real code), its in Scala, but my question about Java, think of this as of pseudocode:
+My question: is there any standard mechnism in Java for converting async code to sync one. For example (from, surprisingly, real code), its in Scala, but my question about Java, think of this as of pseudocode (btw in Scala it wont work):
 
 var finalWorld:WorldModel = null
 LifeActors.run(world, new WorldModelListener {
@@ -26,6 +26,9 @@ val superFuture = LifeActors.run(world, new WorldModelListener {
 }, 3) //3 iterations
 val alive = superFuture.getValue() //Blocks until is ready
 
+I see that futures are used as running some process which returns result. My problem is that I dont want to use cumbersome variable which is accesed from another thread's scope. Is there something like future with a state? Or this is does not make sense at all?
+
+   
 
 
 
