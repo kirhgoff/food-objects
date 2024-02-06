@@ -6,3 +6,11 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+
+# Yarn cache
+.yarn/cache/
+
+# Optional: Ignore build output directories
+node_modules/
+dist/
+build/
