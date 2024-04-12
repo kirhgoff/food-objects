@@ -1,0 +1,39 @@
+---
+// Import Astro's Markdown component for rendering Markdown content
+import linksMapping from '../data/linksMapping.json';
+
+// Function to resolve custom links in the Markdown content
+function resolveCustomLinks(markdownContent, currentPage) {
+  // Find the current page's links mapping
+  const pageMapping = linksMapping.linksMapping.find(mapping => mapping.page === currentPage)?.links || {};
+
+  // Replace each custom link placeholder with the actual URL
+  Object.entries(pageMapping).forEach(([linkName, pageName]) => {
+    // Constructing a placeholder pattern to match in the content
+    const pattern = new RegExp(`\\[([^\\]]+)\\]\\(link:${linkName}\\)`, 'g');
+    // Replace with a URL path, could adjust based on your routing structure
+    markdownContent = markdownContent.replace(pattern, `[$1](/${pageName})`);
+  });
+
+  return markdownContent;
+}
+
+// Simulate loading a Markdown file and its frontmatter
+// In practice, you'd load this based on routing or props
+const { frontmatter, content: rawContent } = await Astro.fetchContent('../content/books.md');
+
+// Process the raw Markdown content to resolve custom links
+const resolvedContent = resolveCustomLinks(rawContent, frontmatter.title.toLowerCase());
+
+---
+<html>
+<head>
+  <title>{frontmatter.title}</title>
+</head>
+<body>
+  <article>
+    <h1>{frontmatter.title}</h1>
+    <Markdown content={resolvedContent} />
+  </article>
+</body>
+</html>

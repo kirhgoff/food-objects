@@ -1,0 +1,26 @@
+{
+  " ": [
+    {
+      "page": "books",
+      "links": {
+        "literature": "starter-story",
+        "escape": "world-around"
+      }
+    },
+    {
+      "page": "starter-story",
+      "links": {
+        "world-around": "world-around",
+        "books-about-physics": "books",
+        "discoveries": "starter-story"
+      }
+    },
+    {
+      "page": "world-around",
+      "links": {
+        "global-community": "starter-story",
+        "place": "books"
+      }
+    }
+  ]
+}
