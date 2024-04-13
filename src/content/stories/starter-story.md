@@ -1,5 +1,5 @@
 ---
-title: "Story starts here"
+title: "Story starts"
 links:
   - world-around
   - books-about-physics
