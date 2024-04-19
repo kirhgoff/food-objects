@@ -1,0 +1,23 @@
+---
+// import linksMapping from '../data/linksMapping.json'
+
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('stories');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+---
+<html>
+<body>
+  <article>
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</body>
+</html>
