@@ -1,6 +1,11 @@
+export interface LinkMappingEntry { 
+  from: string;
+  to: string;
+};
+
 export interface LinkMapping {
   page: string;
-  links: { [key: string]: string };
+  links: LinkMappingEntry[];
 }
 
 export interface LinksMappings {

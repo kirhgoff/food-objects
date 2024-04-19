@@ -1,7 +1,34 @@
 ---
-// import linksMapping from '../data/linksMapping.json'
-
 import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+import linksMapping from '../../data/linksMapping.json'
+
+function preprocessMarkdown(markdown: string, pageId: string, links: string[]) {
+  console.log(`Called with: ${pageId} and ${links}`)
+  if (!links) return markdown
+
+  var content = markdown
+
+  const mappingsForPage = linksMapping
+    .mappings
+    .find(mapping => mapping.page === pageId)?.links || [];
+
+  console.log("Page links: " + JSON.stringify(mappingsForPage))
+
+  links.forEach((fromLink) => {
+    const toLink = mappingsForPage
+      .find(mapping => mapping.from === fromLink)?.to || "unknown"
+
+    const target = `/stories/${toLink}`
+    console.log(`replacing: ${fromLink} with ${target}`)
+
+    const pattern = new RegExp(`link:${fromLink}`, 'g'); 
+    console.log(`Matches: ${markdown.match(pattern)}`)
+    content = content.replace(pattern, target);
+  });
+  return content;
+}
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('stories');
@@ -11,13 +38,24 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content, headings } = await entry.render();
+
+// console.log("------------------")
+// console.log(entry.body)
+// console.log("------------------")
+const links = entry.data.links
+if (links) {
+  entry.body = preprocessMarkdown(entry.body, entry.slug, links);
+  console.log(`Body after processing: ${entry.body}`)
+}
+
+const content = marked.parse(entry.body);
+
 ---
 <html>
 <body>
   <article>
     <h1>{entry.data.title}</h1>
-    <Content />
+    <article set:html={content} />
   </article>
 </body>
 </html>

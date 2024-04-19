@@ -2,25 +2,25 @@
   "mappings": [
     {
       "page": "books",
-      "links": {
-        "literature": "starter-story",
-        "escape": "world-around"
-      }
+      "links": [
+        { "from": "literature", "to": "starter-story" },
+        { "from": "escape", "to": "world-around" }
+      ]
     },
     {
       "page": "starter-story",
-      "links": {
-        "world-around": "world-around",
-        "books-about-physics": "books",
-        "discoveries": "starter-story"
-      }
+      "links": [
+        { "from": "world-around", "to": "world-around" },
+        { "from": "books-about-physics", "to": "books" },
+        { "from": "discoveries", "to": "starter-story" }
+      ]
     },
     {
       "page": "world-around",
-      "links": {
-        "global-community": "starter-story",
-        "place": "books"
-      }
+      "links": [
+        { "from": "global-community", "to": "starter-story" },
+        { "from": "place", "to": "books" }
+      ]
     }
   ]
 }
