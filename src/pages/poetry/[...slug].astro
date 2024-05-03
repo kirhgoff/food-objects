@@ -2,10 +2,8 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 
-import { preprocessMarkdown } from '../../processor'
-
 export async function getStaticPaths() {
-  const stories = await getCollection('stories');
+  const stories = await getCollection('poetry');
   return stories.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
@@ -13,19 +11,13 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 
-const links = entry.data.links
-if (links) {
-  entry.body = preprocessMarkdown(entry.body, entry.slug, links);
-  console.log(`Body after processing: ${entry.body}`)
-}
-
 const content = marked.parse(entry.body);
 
 ---
 <html>
 <body>
   <article>
-    <h1>Story {entry.data.title}</h1>
+    <h1>Poetry {entry.data.title}</h1>
     <article set:html={content} />
   </article>
 </body>
