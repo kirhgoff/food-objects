@@ -12,7 +12,7 @@ const poetryCollection = defineCollection({
   type: 'content', 
   schema: z.object({
     title: z.string(),
-    theme: z.array(z.string()).optional() // TODO: add enum
+    theme: z.string().optional() // TODO: add enum
   }),
 });
 

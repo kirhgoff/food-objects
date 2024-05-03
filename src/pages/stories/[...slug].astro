@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 
 import { preprocessMarkdown } from '../../processor'
+import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
   const stories = await getCollection('stories');
@@ -22,11 +23,9 @@ if (links) {
 const content = marked.parse(entry.body);
 
 ---
-<html>
-<body>
+<Layout title="Food ">
   <article>
     <h1>Story {entry.data.title}</h1>
     <article set:html={content} />
   </article>
-</body>
-</html>
+</Layout>
