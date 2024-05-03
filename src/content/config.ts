@@ -8,6 +8,15 @@ const storiesCollection = defineCollection({
   }),
 });
 
+const poetryCollection = defineCollection({
+  type: 'content', 
+  schema: z.object({
+    title: z.string(),
+    theme: z.array(z.string()).optional() // TODO: add enum
+  }),
+});
+
 export const collections = {
-  'stories': storiesCollection
+  'stories': storiesCollection,
+  'poetry': poetryCollection
 };

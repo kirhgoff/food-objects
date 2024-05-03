@@ -1,25 +1,18 @@
 {
   "mappings": [
     {
-      "page": "books",
+      "page": "kiryusha",
       "links": [
-        { "from": "literature", "to": "starter-story" },
-        { "from": "escape", "to": "world-around" }
+        { "from": "fenimore", "to": "fenimore", "mediaType": "story" }
       ]
     },
     {
-      "page": "starter-story",
+      "page": "fenimore",
       "links": [
-        { "from": "world-around", "to": "world-around" },
-        { "from": "books-about-physics", "to": "books" },
-        { "from": "discoveries", "to": "starter-story" }
-      ]
-    },
-    {
-      "page": "world-around",
-      "links": [
-        { "from": "global-community", "to": "starter-story" },
-        { "from": "place", "to": "books" }
+        { "from": "vasichu", "to": "i-am-not-vasichu", "mediaType": "poetry" },
+        { "from": "vakan-tanka", "to": "vasichu", "mediaType": "poetry" },
+        { "from": "mother-earh", "to": "mother-earh-find-father", "mediaType": "poetry" },
+        { "from": "indeets", "to": "indeets", "mediaType": "poetry" }
       ]
     }
   ]
