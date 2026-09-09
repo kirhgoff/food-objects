@@ -6,13 +6,13 @@ import Layout from '../../layouts/Layout.astro';
 export async function getStaticPaths() {
   const stories = await getCollection('poetry');
   return stories.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+    params: { slug: entry.id }, props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
 
-const content = marked.parse(entry.body);
+const content = marked.parse(entry.body ?? '');
 
 ---
 <Layout title="Food ">
