@@ -1,21 +1,24 @@
 {
   "name": "food-objects",
   "type": "module",
-  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "check": "astro check",
+    "predeploy": "git diff --quiet HEAD && test -z \"$(git ls-files --others --exclude-standard)\" || (echo commit first && exit 1)",
+    "deploy": "astro build && wrangler deploy"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
-    "astro": "^7.3.2",
-    "marked": "^18.0.12"
+    "astro": "^7.3.8"
   },
-  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
   "devDependencies": {
-    "typescript": "^6.0.3"
+    "@astrojs/check": "^0.9.10",
+    "@biomejs/biome": "^2.5.15",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.149.0"
   }
 }
