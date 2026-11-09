@@ -1,0 +1,61 @@
+---
+import { EMAIL_MAX, MESSAGE_MAX } from '@/lib/feedback';
+---
+
+<form method="post" action="/api/feedback">
+  <label>
+    Your feedback
+    <textarea name="message" required maxlength={MESSAGE_MAX} rows="5"></textarea>
+  </label>
+  <label>
+    Email (optional)
+    <input type="email" name="email" maxlength={EMAIL_MAX} />
+  </label>
+  <input
+    class="trap"
+    type="text"
+    name="website"
+    tabindex="-1"
+    autocomplete="off"
+    aria-hidden="true"
+  />
+  <button type="submit">Send feedback</button>
+</form>
+
+<style>
+  form {
+    display: grid;
+    gap: var(--space-2);
+  }
+
+  label {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  textarea,
+  input {
+    font: inherit;
+    padding: var(--space-1);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  .trap {
+    position: absolute;
+    left: -10000px;
+  }
+
+  button {
+    font: inherit;
+    justify-self: start;
+    padding: var(--space-1) var(--space-3);
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--color-accent);
+    color: var(--color-accent-text);
+    cursor: pointer;
+  }
+</style>

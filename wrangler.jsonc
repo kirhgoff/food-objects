@@ -1,8 +1,20 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "food-objects",
+  "main": "src/worker.ts",
   "compatibility_date": "2026-11-09",
   "workers_dev": true,
   "preview_urls": false,
-  "assets": { "directory": "./dist" }
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "food-objects",
+      "database_id": "79f40b51-0cea-43c6-8bb6-0b4e4c4aea33"
+    }
+  ]
 }

@@ -1,0 +1,16 @@
+---
+import { site } from '@/lib/site';
+---
+
+<header>
+  <h1>{site.name}</h1>
+  <p class="tagline">{site.tagline}</p>
+  <p>{site.pitch}</p>
+</header>
+
+<style>
+  .tagline {
+    color: var(--color-muted);
+    font-size: 1.25rem;
+  }
+</style>

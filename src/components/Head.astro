@@ -1,0 +1,14 @@
+---
+import { site } from '@/lib/site';
+
+interface Props {
+  title?: string;
+}
+
+const { title = site.name } = Astro.props;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content={site.description} />
+<title>{title}</title>
