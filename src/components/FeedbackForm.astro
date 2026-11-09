@@ -1,8 +1,8 @@
 ---
-import { EMAIL_MAX, MESSAGE_MAX } from '@/lib/feedback';
+import { EMAIL_MAX, FEEDBACK_PATH, MESSAGE_MAX } from '@/lib/feedback';
 ---
 
-<form method="post" action="/api/feedback">
+<form method="post" action={FEEDBACK_PATH}>
   <label>
     Your feedback
     <textarea name="message" required maxlength={MESSAGE_MAX} rows="5"></textarea>

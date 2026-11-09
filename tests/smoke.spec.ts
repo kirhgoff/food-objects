@@ -18,3 +18,19 @@ test('GET is not allowed', async ({ request }) => {
   const response = await request.get('/api/feedback');
   expect(response.status()).toBe(405);
 });
+
+test('JSON body is rejected', async ({ request }) => {
+  const response = await request.post('/api/feedback', { data: { message: 'hi' } });
+  expect(response.status()).toBe(415);
+});
+
+test('missing body is rejected', async ({ request }) => {
+  const response = await request.post('/api/feedback');
+  expect(response.status()).toBeGreaterThanOrEqual(400);
+  expect(response.status()).toBeLessThan(500);
+});
+
+test('oversized body is rejected', async ({ request }) => {
+  const response = await request.post('/api/feedback', { form: { message: 'a'.repeat(20000) } });
+  expect(response.status()).toBe(413);
+});
